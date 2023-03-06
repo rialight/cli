@@ -1,0 +1,3 @@
+rialight::initialize!(|app| {
+    // application
+});
