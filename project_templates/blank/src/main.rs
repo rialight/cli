@@ -1,5 +1,5 @@
 #![feature(async_closure)]
 
-rialight::initialize!(async |app| {
+rialight::initialize!(async move |app| {
     // application
 });
