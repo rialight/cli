@@ -18,4 +18,4 @@ id = "$id"
 title = "Untitled Application"
 
 [[package.metadata.rialight.install-files]]
-match = "res/lang/**/*.json"
+match = "res/lang/**/*.ftl"
