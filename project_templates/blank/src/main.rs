@@ -1,6 +1,6 @@
 #![feature(async_closure)]
 
-mod app_ftl;
+mod ftl;
 
 rialight::initialize!(async move |app| {
     // application code

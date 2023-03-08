@@ -4,7 +4,7 @@ use std::sync::Arc;
 
 pub fn create() -> Arc<Ftl> {
     Arc::new({
-        let app_ftl = Ftl::new(
+        let ftl = Ftl::new(
             FtlOptions::new()
                 // specify supported locales.
                 // the form in which the locale identifier appears here
@@ -25,9 +25,9 @@ pub fn create() -> Arc<Ftl> {
                     // specify FtlLoadMethod::FileSystem or FtlLoadMethod::Http
                     .load_method(FtlLoadMethod::FileSystem)))
         ;
-        app_ftl.initialize_locale(|_locale, _bundle| {
+        ftl.initialize_locale(|_locale, _bundle| {
             //
         });
-        app_ftl
+        ftl
     })
 }
