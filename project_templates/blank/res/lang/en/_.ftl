@@ -1,0 +1,1 @@
+# FTL guide: https://github.com/projectfluent/fluent/tree/master/guide
