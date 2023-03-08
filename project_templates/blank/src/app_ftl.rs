@@ -29,3 +29,7 @@ pub fn create() -> Arc<Ftl> {
         app_ftl
     })
 }
+
+pub fn mutable(arg: &mut Arc<Ftl>) -> &mut Ftl {
+    Arc::get_mut(arg).unwrap()
+}
